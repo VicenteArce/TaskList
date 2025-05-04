@@ -28,7 +28,7 @@
 
         <footer class="bg-navbar text-navbar px-6 py-4 flex items-center justify-center">
             <div class="flex items-center">
-                <p>Capacitación Citiaps</p>
+                <p>Capacitación</p>
                 <span class="mx-2">|</span>
                 <p>Desarrollado por VicenteArce</p>
             </div>
