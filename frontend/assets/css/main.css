@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+
+:root {
+    /* Colores principales */
+    --color-primary: #62a07b;
+    --color-primary-hover: #45835e;
+    --color-secondary: #64748b;
+    --color-secondary-hover: #475569;
+    --color-success: #613860;
+    --color-success-hover: #522e51;
+    --color-danger: #f75e50;
+    --color-danger-hover: #b91c1c;
+  
+    /* Layout */
+    --bg-main: #e0faea;
+    --text-main: #1f2937;
+    --bg-navbar: var(--color-primary);
+    --text-navbar: #ffffff;
+    --bg-navbar-hover: var(--color-primary-hover);
+}
+  
+  
+.bg-main {
+    background-color: var(--bg-main);
+}
+  
+.text-main {
+    color: var(--text-main);
+}
+  
+.bg-navbar {
+    background-color: var(--bg-navbar);
+}
+  
+.text-navbar {
+    color: var(--text-navbar);
+}
+  
+.hover\:bg-navbar-hover:hover {
+    background-color: var(--bg-navbar-hover);
+}
+  
+.base-button {
+    @apply px-4 py-2 rounded font-medium text-white transition duration-200 ease-in-out;
+}
+  
+.btn-primary {
+    background-color: var(--color-primary);
+}
+.btn-primary:hover {
+    background-color: var(--color-primary-hover);
+}
+  
+.btn-secondary {
+    background-color: var(--color-secondary);
+}
+.btn-secondary:hover {
+    background-color: var(--color-secondary-hover);
+}
+  
+.btn-success {
+    background-color: var(--color-success);
+}
+.btn-success:hover {
+    background-color: var(--color-success-hover);
+}
+  
+.btn-danger {
+    background-color: var(--color-danger);
+}
+.btn-danger:hover {
+    background-color: var(--color-danger-hover);
+}
