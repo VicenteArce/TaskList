@@ -7,7 +7,7 @@ Como requisitos se tiene que tener instalado MongoDB, Golang y Node.js.
 ### 1. Clonar el repositorio  
 Primero clone el repositorio con:  
 ```bash
-git clone https://github.com/VicenteArce/TaskList-CitiApsCap
+git clone https://github.com/VicenteArce/TaskList
 ```
 
 ### 2. Ejecución del proyecto
