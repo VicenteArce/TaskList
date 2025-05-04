@@ -3,17 +3,17 @@
 
 :root {
     /* Colores principales */
-    --color-primary: #62a07b;
-    --color-primary-hover: #45835e;
-    --color-secondary: #64748b;
+    --color-primary: #11587c;
+    --color-primary-hover: #515db3;
+    --color-secondary: #7b97bf;
     --color-secondary-hover: #475569;
-    --color-success: #613860;
-    --color-success-hover: #522e51;
+    --color-success: #478760;
+    --color-success-hover: #37764a;
     --color-danger: #f75e50;
     --color-danger-hover: #b91c1c;
   
     /* Layout */
-    --bg-main: #e0faea;
+    --bg-main: #e0eefa;
     --text-main: #1f2937;
     --bg-navbar: var(--color-primary);
     --text-navbar: #ffffff;

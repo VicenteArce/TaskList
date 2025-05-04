@@ -1,6 +1,6 @@
 <template>
     <div class="bg-white shadow rounded-lg p-4 flex flex-col gap-2 border-l-4"
-        :class="task.completed ? 'border-green-800' : 'border-yellow-500'">
+        :class="task.completed ? 'border-green-600' : 'border-yellow-500'">
         <div class="flex justify-between items-center">
             <h3 class="text-lg font-bold">{{ task.title }}</h3>
             <span :class="task.completed ? 'text-green-600' : 'text-yellow-600'" class="text-sm font-semibold">
@@ -25,7 +25,7 @@
                 Marcar como completada
             </BaseButton>
             <!-- Emit editTask when button is clicked-->
-            <BaseButton v-if="!task.completed" @click="$emit('editTask', task.id)" variant="danger"
+            <BaseButton v-if="!task.completed" @click="$emit('editTask', task.id)" variant="secondary"
                 class="mt-2 self-start">
                 Editar
             </BaseButton>
