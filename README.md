@@ -1,4 +1,5 @@
-# citiapscap
+# TaskList
+Este repositorio consta de un pequeño programa, que cuenta con un backend en Go y un frontend en Vue, haciendo uso de frameworks como nuxt y Tailwind. Con una base de datos en MongoDB.
 
 ## Requisitos y Ejecución
 Como requisitos se tiene que tener instalado MongoDB, Golang y Node.js.
