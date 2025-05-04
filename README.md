@@ -11,7 +11,7 @@ git clone https://github.com/VicenteArce/TaskList
 ```
 
 ### 2. Ejecución del proyecto
-Primero, cree una base de datos en MongoDB cuyo nombre sea: "tododatabase" y una colección llamada "tasks". El nombre de estas se encuentra hardcodeada dentro del controlador de las tareas, pero se podría haber dejado el nombre de la base de datos como una variable de entorno.  
+Primero se crea una base de datos en MongoDB cuyo nombre sea: "tododatabase" y una colección llamada "tasks". El nombre de estas se encuentra hardcodeada dentro del controlador de las tareas, pero se podría haber dejado el nombre de la base de datos como una variable de entorno.  
 
 Para poblar la base de datos de tareas sintéticas, ejecute los siguientes comandos dentro de la carpeta [frontend](./frontend):  
 ```bash
@@ -26,7 +26,7 @@ Para ejecutar el backend, abra la carpeta [backend](./backend) y ejecute el back
 go run main.go
 ```  
   
-En este caso no será necesario instalar dependencias, ya que estas ya vienen insladas en los archivos correspondientes.  
+En este caso no será necesario instalar dependencias, ya que estas ya vienen instaladas en los archivos correspondientes.  
   
 Para la ejecución del frontend, abra la carpeta [frontend](./frontend) y ejecute los siguientes comandos:  
 ```bash
